@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="web_customer_tracker@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.15">
     <root id="1"/>
     <schema id="2" parent="1" name="web_customer_tracker">
       <Current>1</Current>
@@ -11,28 +11,30 @@
     <schema id="5" parent="1" name="hb-04-one-to-many-uni"/>
     <schema id="6" parent="1" name="hb-05-many-to-many"/>
     <schema id="7" parent="1" name="hb_student_tracker"/>
-    <schema id="8" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="information_schema">
+      <Substituted>1</Substituted>
+    </schema>
     <schema id="9" parent="1" name="mysql"/>
     <schema id="10" parent="1" name="performance_schema"/>
     <schema id="11" parent="1" name="sys"/>
     <table id="12" parent="2" name="customer"/>
     <column id="13" parent="12" name="id">
       <Position>1</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
     <column id="14" parent="12" name="first_name">
       <Position>2</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(45)|0s</DataType>
     </column>
     <column id="15" parent="12" name="last_name">
       <Position>3</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(45)|0s</DataType>
     </column>
     <column id="16" parent="12" name="email">
       <Position>4</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>varchar(45)|0s</DataType>
     </column>
     <key id="17" parent="12" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>

@@ -1,7 +1,8 @@
 #
-#Mon Aug 05 12:14:36 CLT 2019
-com.luv2code.springdemo.entity.Customer=javax.persistence.Entity,javax.persistence.Table
+#Tue Aug 13 16:38:53 CLST 2019
 com.luv2code.springdemo.controller.CustomerController=org.springframework.stereotype.Component
+com.luv2code.springdemo.entity.Customer=javax.persistence.Entity,javax.persistence.Table
+com.luv2code.springdemo.aspect.CRMLoggingAspect=org.springframework.stereotype.Component
 com.luv2code.springdemo.service.CustomerServiceImpl=org.springframework.stereotype.Component
 com.luv2code.springdemo.dao.CustomerDAOImpl=org.springframework.stereotype.Component
 com.luv2code.testdb.TestDbServlet=javax.servlet.annotation.WebServlet
