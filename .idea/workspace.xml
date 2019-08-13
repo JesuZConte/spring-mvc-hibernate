@@ -7,12 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9808fec-e75c-493a-b611-dc2bc87496fb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e00bec23-1ca5-4545-a220-3a87312bdb39.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e00bec23-1ca5-4545-a220-3a87312bdb39.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/classes/META-INF/spring.components" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/classes/META-INF/spring.components" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/classes/com/luv2code/springdemo/aspect/CRMLoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/classes/com/luv2code/springdemo/aspect/CRMLoggingAspect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-customer-tracker/META-INF/spring.components" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-customer-tracker/META-INF/spring.components" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-crud-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-crud-demo-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-customer-tracker/com/luv2code/springdemo/aspect/CRMLoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-customer-tracker/com/luv2code/springdemo/aspect/CRMLoggingAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luv2code/springdemo/aspect/CRMLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luv2code/springdemo/aspect/CRMLoggingAspect.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -342,7 +341,7 @@
       <workItem from="1565109283244" duration="27000" />
       <workItem from="1565109332382" duration="466000" />
       <workItem from="1565112330074" duration="600000" />
-      <workItem from="1565724068822" duration="959000" />
+      <workItem from="1565724068822" duration="1551000" />
     </task>
     <servers />
   </component>
